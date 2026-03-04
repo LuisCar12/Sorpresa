@@ -73,3 +73,74 @@ body {
     0% { transform: rotate(-2deg); }
     100% { transform: rotate(2deg); }
 }
+
+/* --- AJUSTES DE RESPONSIVIDAD --- */
+
+/* Para tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    .glass-card {
+        grid-template-columns: 1fr; /* Cambia de 2 columnas a 1 */
+        padding: 40px;
+        text-align: center;
+    }
+
+    .glitch {
+        font-size: 3.5rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .tulips-display {
+        height: 300px; /* Reduce un poco el espacio de las flores */
+        margin-top: 40px;
+    }
+}
+
+/* Para celulares (móviles) */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .hero-content {
+        padding: 0 20px;
+    }
+
+    .glitch {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    .glass-card {
+        padding: 30px 20px;
+        border-radius: 30px;
+    }
+
+    .name {
+        font-size: 2.2rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .tulips-display {
+        gap: 8px; /* Flores más juntas para que quepan */
+        overflow: hidden; /* Evita que las flores se salgan de la pantalla */
+    }
+
+    .flower-head {
+        width: 30px; /* Flores un poco más pequeñas */
+        height: 45px;
+    }
+
+    .stem {
+        width: 4px;
+    }
+}
