@@ -12,10 +12,10 @@ particlesJS("particles-js", {
 document.addEventListener('DOMContentLoaded', () => {
     const garden = document.getElementById('garden');
     const colors = [
-        'linear-gradient(to top, #ff003c, #ff4d6d)',
-        'linear-gradient(to top, #800f2f, #ff758f)',
-        'linear-gradient(to top, #c9184a, #ffb3c1)',
-        'linear-gradient(to top, #590d22, #a4133c)'
+        'linear-gradient(to top, #e0d022, #efb300)',
+        'linear-gradient(to top, #e6b70c, #ffc907)',
+        'linear-gradient(to top, #efbe1a, #f1c30d)',
+        'linear-gradient(to top, #fbeb0b, #f0c903)'
     ];
 
     for (let i = 0; i < 8; i++) {
